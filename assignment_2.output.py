@@ -23,14 +23,7 @@ c.  50
 Left shift both a and b with 2 bits respectively are : 224 40
 Right shift a with 2 bits and b with 4 bits respectively are :  14 0
 
-
-Enter first number: 8
-Enter second number: 58
-Enter third number: 50
-THE LARGEST NUMBER IS  58.0
-
-
-ENTER A STRING pronamed
+  ENTER A STRING pronamed
 Yes
 
 
@@ -38,4 +31,5 @@ ENTER FIRST SIDE OF TRIANGLE 3
 ENTER SECOND SIDE OF TRIANGLE 4
 ENTER THIRD SIDE OF TRIANGLE 5
 Yes
+4
 >>> 
