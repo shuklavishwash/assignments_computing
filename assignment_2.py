@@ -31,23 +31,6 @@ print("\n")
 
 
 #QUESTION 4
-num1 = float(input("Enter first number: "))
-num2 = float(input("Enter second number: "))
-num3 = float(input("Enter third number: "))
- 
-if (num1 >=num2) and (num1 >=num3):
-   largest = num1
-elif (num2 >=num1) and (num2 >=num3):
-   largest = num2
-else:
-   largest = num3
-#If all numbers are equal then also same number will be printed 
-print("THE LARGEST NUMBER IS ",largest)
-print("\n")
-
-
-
-#QUESTION 5
 s=input("ENTER A STRING")
 if 'name' in s:
     print ("Yes")
@@ -56,7 +39,7 @@ else:
 print("\n")
 
 
-#QUESTION 6
+#QUESTION 5
 a=float(input("ENTER FIRST SIDE OF TRIANGLE"))
 b=float(input("ENTER SECOND SIDE OF TRIANGLE"))
 c=float(input("ENTER THIRD SIDE OF TRIANGLE"))
@@ -68,4 +51,30 @@ elif(c>=(a+b)):
     print("No")
 else:
     print("Yes")    
+  
+  #Question 6
+  
+# Count number of bits to be flipped
+# to convert A into B
+ 
+# Function that count set bits
+def countSetBits( n ):
+    count = 0
+    while n:
+        count += 1
+        n &= (n-1)
+    return count
+     
+# Function that return count of
+# flipped number
+def FlippedCount(a , b):
+ 
+    # Return count of set bits in
+    # a XOR b
+    return countSetBits(a^b)
+ 
+# Driver code
+a = 10
+b = 20
+print(FlippedCount(a, b))
 
