@@ -1,3 +1,5 @@
+#21102077
+#VISHWASH SHUKLA
 #Q.1
 m=int(input("Enter Marks :"))
 if(m<25):
