@@ -18,23 +18,14 @@ else:
     print(" No result ")
 
 #Q.2
-def checkYear(year):
-    if (year % 4) == 0:
-        if (year % 100) == 0:
-            if (year % 400) == 0:
-                return True
-            else:
-                return False
-        else:
-             return True
+year = int(input('Enter year:'))
+if year % 4 == 0:
+    if year % 100 == 0 and year%400 == 0:
+        print("Leap year")
     else:
-        return False
- 
-year =int(input("Write a year to check if it is a leap year : ")
-if(checkYear(year)):
-    print("Leap Year")
+        print("Not a leap year")
 else:
-    print("Not a Leap Year")
+    print("Not a leap year")
 
 
 #Q.3
